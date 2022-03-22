@@ -6,7 +6,7 @@ class AdrToolsJp < Formula
   license "CC-BY-4.0"
 
   bottle do
-    sha256 cellar: :any_skip_relocation, arm64_monterey: "bb30126ed24957928cee4df9ef9c4768a928c07fbbf186075941901f16725ef1"
+    sha256 cellar: :any_skip_relocation, arm64_monterey: "4f0978277266ef9447d01d2323f393e9877b68aafad1aeea7e74dc0ab2fccee1"
   end
 
   def install
