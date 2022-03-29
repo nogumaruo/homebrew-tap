@@ -1,12 +1,12 @@
 class AdrToolsJp < Formula
   desc "CLI tool for working with Architecture Decision Records JP ver"
   homepage "https://github.com/nogumaruo/adr-tools-jp/"
-  url "https://github.com/nogumaruo/adr-tools-jp/archive/3.0.2.tar.gz"
+  url "https://github.com/nogumaruo/adr-tools-jp/archive/3.0.3.tar.gz"
   sha256 "bb8fb88edc0e12d3739aa1de5e38b719fdf9c633c301f7ac722a4e47be5044c5"
   license "CC-BY-4.0"
 
   bottle do
-    sha256 cellar: :any_skip_relocation, arm64_monterey: "4f0978277266ef9447d01d2323f393e9877b68aafad1aeea7e74dc0ab2fccee1"
+    sha256 cellar: :any_skip_relocation, all: "c90727c5bbac801707cfc081b3958f048b64e92f1157fae3079eb03834037a81"
   end
 
   def install
